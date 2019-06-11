@@ -1,0 +1,5 @@
+num = input("Enter complex number : ")
+c = complex(num)
+print(c.real, c.imag)
+print(abs(c))
+print(c.conjugate())
